@@ -5,6 +5,7 @@ import katana from "../src/imagens/sword-katana.jpg";
 import sake from "../src/imagens/sake.jpg";
 import vasodragao from "../src/imagens/vasodragao.jpg";
 import camisadragao from "../src/imagens/camisa.jpg";
+import Image from "next/image";
 
 function Loja() {
 	return (
@@ -58,7 +59,7 @@ function Loja() {
 						].map((item, index) => (
 							<div className="col-md-4" key={index}>
 								<div className="card h-100">
-									<img src={item.src} className="card-img-top" alt="..." />
+									<Image src={item.src} width={500} height={500} alt="" />
 									<div className="card-body">
 										<h5 className="card-title text-center fs-2">
 											{item.title}

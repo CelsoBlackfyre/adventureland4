@@ -19,29 +19,29 @@ function Galeria() {
 						<Image src={park4} width={500} height={500} alt="" />
 					</div>
 					<div className="col-md-3">
-						<img src={park6} alt="" />
+						<Image src={park6} width={500} height={500} alt={""} />
 					</div>
 					<div className="col-md-3">
-						<img src={park5} alt="" />
+						<Image src={park5} width={500} height={500} alt={""} />
 					</div>
 					<div className="col-md-3">
-						<img src={park7} alt="" />
+						<Image src={park7} width={500} height={500} alt={""} />
 					</div>
 				</div>
 			</div>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-3">
-						<img src={park} alt="" />
+						<Image src={park} width={500} height={500} alt={""} />
 					</div>
 					<div className="col-md-3">
-						<img src={park2} alt="" />
+						<Image src={park2} width={500} height={500} alt={""} />
 					</div>
 					<div className="col-md-3">
-						<img src={park3} alt="" />
+						<Image src={park3} width={500} height={500} alt={""} />
 					</div>
 					<div className="col-md-3">
-						<img src={park4} alt="" />
+						<Image src={park4} width={500} height={500} alt={""} />
 					</div>
 				</div>
 			</div>
