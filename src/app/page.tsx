@@ -11,6 +11,7 @@ export default function Home() {
 	return (
 		<>
 			{/* <MeuFormulario /> */}
+			<Home />
 			<AppHeader />
 			<Loja />
 			<CadastroForm />
