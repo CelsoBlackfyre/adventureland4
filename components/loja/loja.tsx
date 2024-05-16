@@ -1,10 +1,10 @@
 import React from "react";
-import kitpalito from "../src/imagens/kitpalito.jpg";
-import neko from "../src/imagens/maneki.jpg";
-import katana from "../src/imagens/sword-katana.jpg";
-import sake from "../src/imagens/sake.jpg";
-import vasodragao from "../src/imagens/vasodragao.jpg";
-import camisadragao from "../src/imagens/camisa.jpg";
+import kitpalito from "../../src/imagens/kitpalito.jpg";
+import neko from "../../src/imagens/maneki.jpg";
+import katana from "../../src/imagens/sword-katana.jpg";
+import sake from "../../src/imagens/sake.jpg";
+import vasodragao from "../../src/imagens/vasodragao.jpg";
+import camisadragao from "../../src/imagens/camisa.jpg";
 import Image from "next/image";
 
 function Loja() {
@@ -18,7 +18,7 @@ function Loja() {
 					店
 				</h2>
 				<div className="container">
-					<div className="row">
+					<div className="grid grid-cols-3 ">
 						{[
 							{
 								src: kitpalito,
@@ -57,14 +57,20 @@ function Loja() {
 								price: "R$ 30,00",
 							},
 						].map((item, index) => (
-							<div className="col-md-4" key={index}>
-								<div className="card h-100">
-									<Image src={item.src} width={500} height={500} alt="" />
-									<div className="card-body">
-										<h5 className="card-title text-center fs-2">
+							<div className="block rounded-lg shadow-secondary-1 " key={index}>
+								<div className="bg-#191919 rounded-lg py-4 flex flex-1 flex-col justify-between px-3">
+									<Image
+										src={item.src}
+										width={500}
+										height={500}
+										className="rounded-t-lg object-fill h-48 w-96"
+										alt=""
+									/>
+									<div className="p-6 text-surface bg-white">
+										<h5 className="mb-2 text-xl font-medium leading-tight">
 											{item.title}
 										</h5>
-										<p className="card-text">{item.text}</p>
+										<p className="mb-4 text-base text">{item.text}</p>
 									</div>
 									<div
 										className="card-footer fs-3 text-center"
