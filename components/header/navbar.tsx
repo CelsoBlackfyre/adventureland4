@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
 	return (
 		<>
 			<div id="result"></div>
-			<nav className="lg:px-16 px-6 bg-transparent shadow-md flex flex-wrap items-center lg:py-0 py-2">
+			<nav className="lg:px-16 px-6 bg-slate-800 shadow-md flex flex-wrap items-center lg:py-0 py-2">
 				<div className="flex-1 flex justify-between items-center">
 					<a href="/" className="flex text-lg font-semibold">
 						<Image
@@ -15,12 +15,12 @@ const Navbar: React.FC = () => {
 							className="p-2"
 							alt="Rz Codes Logo"
 						/>
-						<div className="mt-3 text-slate-800">Adventure Land</div>
+						<div className="mt-3 text-white">Adventure Land</div>
 					</a>
 				</div>
 				<label htmlFor="menu-toggle" className="cursor-pointer lg:hidden block">
 					<svg
-						className="fill-current text-gray-900"
+						className="fill-current text-white"
 						xmlns="http://www.w3.org/2000/svg"
 						width="20"
 						height="20"
@@ -37,42 +37,42 @@ const Navbar: React.FC = () => {
 						<ul className="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0">
 							<li className="py-2 lg:py-0 ">
 								<a
-									className="text-slate-900 hover:pb-4 hover:border-b-4 hover:border-red-600"
+									className="text-white hover:pb-4 hover:border-b-4 hover:border-red-600"
 									href="#">
 									Conta
 								</a>
 							</li>
 							<li className="py-2 lg:py-0 ">
 								<a
-									className="text-slate-900 hover:pb-4 hover:border-b-4 hover:border-red-600"
+									className="text-white hover:pb-4 hover:border-b-4 hover:border-red-600"
 									href="#">
 									Loja
 								</a>
 							</li>
 							<li className="py-2 lg:py-0 ">
 								<a
-									className="text-slate-900 hover:pb-4 hover:border-b-4 hover:border-red-600"
+									className="text-white hover:pb-4 hover:border-b-4 hover:border-red-600"
 									href="#">
 									Alimentacao
 								</a>
 							</li>
 							<li className="py-2 lg:py-0 ">
 								<a
-									className="text-slate-900 hover:pb-4 hover:border-b-4 hover:border-red-600"
+									className="text-white hover:pb-4 hover:border-b-4 hover:border-red-600"
 									href="#">
 									Contato
 								</a>
 							</li>
 							<li className="py-2 lg:py-0 ">
 								<a
-									className="text-slate-900 hover:pb-4 hover:border-b-4 hover:border-red-600"
+									className="text-white hover:pb-4 hover:border-b-4 hover:border-red-600"
 									href="#">
 									Seja Socio
 								</a>
 							</li>
 							<li className="py-2 lg:py-0 ">
 								<a
-									className="text-slate-900 hover:pb-4 hover:border-b-4 hover:border-red-600"
+									className="text-white hover:pb-4 hover:border-b-4 hover:border-red-600"
 									href="#">
 									Sobre
 								</a>

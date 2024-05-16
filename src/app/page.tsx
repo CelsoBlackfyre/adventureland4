@@ -12,8 +12,8 @@ export default function Home() {
 	return (
 		<>
 			{/* <MeuFormulario /> */}
-			<CarouselB />
 			<AppHeader />
+			<CarouselB />
 			<Loja />
 			<CadastroForm />
 			<Login />
