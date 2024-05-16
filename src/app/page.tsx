@@ -7,10 +7,12 @@ import CadastroForm from "../../components/conta/Registrar";
 import Loja from "../../components/loja/loja";
 import AppHeader from "../../components/header/navbar";
 import Footer from "../../components/footer/footer";
+import CarouselB from "../../components/carrossel/carrossel";
 export default function Home() {
 	return (
 		<>
 			{/* <MeuFormulario /> */}
+			<CarouselB />
 			<AppHeader />
 			<Loja />
 			<CadastroForm />
