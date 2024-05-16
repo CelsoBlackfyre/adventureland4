@@ -63,7 +63,7 @@ function Loja() {
 										src={item.src}
 										width={500}
 										height={500}
-										className="rounded-t-lg object-fill h-48 w-96"
+										className="rounded-t-lg object-contain w-full"
 										alt=""
 									/>
 									<div className="p-6 text-surface bg-white">

@@ -2,7 +2,7 @@
 
 import { connectToDatabase } from "../lib/mongodb";
 
-export default function Home() {
+export default function Mongo() {
 	// Example usage of connectToDatabase
 	async function fetchData() {
 		const { db } = await connectToDatabase();
