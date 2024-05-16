@@ -4,6 +4,7 @@ import React from "react";
 const Navbar: React.FC = () => {
 	return (
 		<>
+			<div id="result"></div>
 			<nav className="lg:px-16 px-6 bg-transparent shadow-md flex flex-wrap items-center lg:py-0 py-2">
 				<div className="flex-1 flex justify-between items-center">
 					<a href="/" className="flex text-lg font-semibold">

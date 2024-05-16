@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { FormData } from "../DadosUsuario/dadosUsuario";
+// import { FormData } from "../DadosUsuario/getUsers";
 // interface FormData {
 // 	nomeUsuario: string;
 // 	nome: string;

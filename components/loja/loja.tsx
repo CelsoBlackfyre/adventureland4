@@ -5,6 +5,7 @@ import katana from "../../src/imagens/sword-katana.jpg";
 import sake from "../../src/imagens/sake.jpg";
 import vasodragao from "../../src/imagens/vasodragao.jpg";
 import camisadragao from "../../src/imagens/camisa.jpg";
+import hashi from "../../src/imagens/hashi3.jpg";
 import Image from "next/image";
 
 function Loja() {
@@ -21,7 +22,7 @@ function Loja() {
 					<div className="grid grid-cols-3 ">
 						{[
 							{
-								src: kitpalito,
+								src: hashi,
 								title: "Kit Hashi",
 								text: "Hashi se trata dos famosos palitos que são utilizados para alimentação no Japão. Se trata de uma ferramenta resistente e você adorar usá-la para comer seu sushi.",
 								price: "R$ 30,00",
@@ -63,10 +64,10 @@ function Loja() {
 										src={item.src}
 										width={500}
 										height={500}
-										className="rounded-t-lg object-contain w-full"
+										className="rounded-t-lg object-contain "
 										alt=""
 									/>
-									<div className="p-6 text-surface bg-white">
+									<div className="p-6 object-contain   text-surface bg-white">
 										<h5 className="mb-2 text-xl font-medium leading-tight">
 											{item.title}
 										</h5>
