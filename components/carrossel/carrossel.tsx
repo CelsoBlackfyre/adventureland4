@@ -17,8 +17,8 @@ function CarouselB() {
 			  itemID={1}
 			  className="relative float-left -mr-[100%] hidden w-full !transform-none transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
 			>
-			  <img
-				src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+			  <Image
+				src={sakurahouse}
 				className="block w-full"
 				alt="..."
 			  />
@@ -27,8 +27,8 @@ function CarouselB() {
 			  itemID={2}
 			  className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
 			>
-			  <img
-				src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+			  <Image
+				src={park3}
 				className="block w-full"
 				alt="..."
 			  />
@@ -37,8 +37,8 @@ function CarouselB() {
 			  itemID={3}
 			  className="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
 			>
-			  <img
-				src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+			  <Image
+				src={park4}
 				className="block w-full"
 				alt="..."
 			  />
