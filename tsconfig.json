@@ -28,6 +28,6 @@
 		"**/*.tsx",
 		".next/types/**/*.ts",
 		"pages/api/route.js"
-	],
+, "pages/api/server.mjs"	],
 	"exclude": ["node_modules"]
 }

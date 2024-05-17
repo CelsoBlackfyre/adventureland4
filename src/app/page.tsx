@@ -8,12 +8,13 @@ import Loja from "../../components/loja/loja";
 import AppHeader from "../../components/header/navbar";
 import Footer from "../../components/footer/footer";
 import CarouselB from "../../components/carrossel/carrossel";
+import CarouselDarkVariant from "../../components/carrossel/carrossel";
 export default function Home() {
 	return (
 		<>
 			{/* <MeuFormulario /> */}
+			<CarouselDarkVariant />
 			<AppHeader />
-			<CarouselB />
 			<Loja />
 			<CadastroForm />
 			<Login />

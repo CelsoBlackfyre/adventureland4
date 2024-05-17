@@ -12,7 +12,7 @@ function Loja() {
 	return (
 		<>
 			<div>
-				<h1 className="text-white text-center" style={{ marginTop: "50px" }}>
+				<h1 className="text-white text-center text-4xl" style={{ marginTop: "50px" }}>
 					Loja
 				</h1>
 				<h2 className="text-white text-center" style={{ marginBottom: "50px" }}>
