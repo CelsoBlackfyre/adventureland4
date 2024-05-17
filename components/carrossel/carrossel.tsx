@@ -6,7 +6,9 @@ import sakurahouse from "../../src/imagens/sakurahouse.jpg";
 import park3 from "../../src/imagens/japanesevillage.jpg";
 import park4 from "../../src/imagens/brinquedo6.png";
 
-export default function CarouselDarkVariant(): JSX.Element {
+import { Carousel } from "@material-tailwind/react";
+
+export function CarouselDefault() {
 	return (
 		<>
 			<TECarousel
