@@ -6,6 +6,7 @@ import sake from "../../src/imagens/sake.jpg";
 import vasodragao from "../../src/imagens/vasodragao.jpg";
 import camisadragao from "../../src/imagens/camisa.jpg";
 import hashi from "../../src/imagens/hashi3.jpg";
+import chops from "../../src/imagens/japanesechopsticks.jpg"
 import Image from "next/image";
 
 function Loja() {
@@ -22,7 +23,7 @@ function Loja() {
 					<div className="grid grid-cols-3 ">
 						{[
 							{
-								src: hashi,
+								src: chops,
 								title: "Kit Hashi",
 								text: "Hashi se trata dos famosos palitos que são utilizados para alimentação no Japão. Se trata de uma ferramenta resistente e você adorar usá-la para comer seu sushi.",
 								price: "R$ 30,00",
@@ -58,16 +59,17 @@ function Loja() {
 								price: "R$ 30,00",
 							},
 						].map((item, index) => (
-							<div className="block rounded-lg shadow-secondary-1 " key={index}>
-								<div className="bg-#191919 rounded-lg py-4 flex flex-1 flex-col justify-between px-3">
+							<div className="rounded-lg overflow-hidden shadow-secondary-1" key={index}>
+								<div className="bg-#191919 rounded-lg py-4 flex flex-col justify-between px-3">
 									<Image
 										src={item.src}
 										width={500}
 										height={500}
-										className="rounded-t-lg object-contain "
+										loading="lazy"
+										className="rounded-t-lg w-full h-84 object-fit"
 										alt=""
 									/>
-									<div className="p-6 object-contain   text-surface bg-white">
+									<div className="p-6 object-contain flex-1 p-6 text-surface bg-white">
 										<h5 className="mb-2 text-xl font-medium leading-tight">
 											{item.title}
 										</h5>

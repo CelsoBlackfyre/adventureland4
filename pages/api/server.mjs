@@ -5,7 +5,7 @@ const item = mongoose.model("Item", {
 
 const main = async () => {
 
-	await mongoose.connect("mongodb://localhost:27017/test",{});
+	await mongoose.connect("mongodb://localhost:27017/teste",{});
 	const PORT = process.env.PORT || 5000;
 	const app = express();
 
